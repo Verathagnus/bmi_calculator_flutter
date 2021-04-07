@@ -5,6 +5,7 @@ import 'package:flutter/src/painting/border_radius.dart';
 import 'package:flutter/src/widgets/basic.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
+const bottomContainerHeight = 80.0;
 class InputPage extends StatefulWidget {
   @override
   _InputPageState createState() => _InputPageState();
@@ -50,7 +51,7 @@ class _InputPageState extends State<InputPage> {
               color: Color(0xFFEB1555),
               margin: EdgeInsets.only(top: 10.0),
               width: double.infinity,
-              height: 80.0,
+              height: bottomContainerHeight,
           ),
         ],
       ),
