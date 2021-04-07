@@ -29,7 +29,7 @@ class _InputPageState extends State<InputPage> {
               children: <Widget>[
                 Expanded(
                   child: ReusableCard(
-                      colour: activeCardColour
+                      colour: activeCardColour,
                       cardChild: Column(
                           children: <Widget>[
                               Icon(
