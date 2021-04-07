@@ -39,7 +39,7 @@ class _InputPageState extends State<InputPage> {
                         ),
                         SizedBox(height: 15.0),
                         Text(
-                          "MALE",
+                          'MALE',
                           style: TextStyle(
                             fontSize: 10.0,
                             color: Color(0xFFBDBE98),
