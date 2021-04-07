@@ -9,7 +9,6 @@ class BMICalculator extends StatelessWidget {
         theme: ThemeData.dark().copyWith(
             primaryColor: Color(0xFF0A0B21),
             scaffoldBackgroundColor: Color(0xFF0A0B21),
-            accentColor: Colors.purple,
         ),
       home: InputPage(),
     );
@@ -31,8 +30,11 @@ class _InputPageState extends State<InputPage> {
       body: Center(
         child: Text('Body Text'),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
+      floatingActionButton: Theme(
+          data: ThemeData(accentColor: Colors.purple),
+        child: FloatingActionButton(
+          child: Icon(Icons.add),
+        ),
       ),
     );
   }
